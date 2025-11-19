@@ -16,6 +16,7 @@ import { WorldMap } from "@/components/viz/WorldMap";
 import { Button } from "@/components/ui/Button";
 import { AnimatedGrid } from "@/components/ui/AnimatedGrid";
 import { useAnalytics } from "@/hooks/useAnalytics";
+import content from "@/data/landing-content.json";
 
 export default function Home() {
   const { track } = useAnalytics();
@@ -41,12 +42,12 @@ export default function Home() {
       <AnimatedGrid />
       {/* Navigation (Simple Overlay) */}
       <nav className="fixed top-0 left-0 right-0 z-40 px-6 py-4 flex items-center justify-between bg-black/50 backdrop-blur-md border-b border-white/5">
-        <div className="text-xl font-bold text-white tracking-tight">VYZZ</div>
+        <div className="text-xl font-bold text-white tracking-tight">{content.nav.brand}</div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/60">
-          <a href="#how-it-works" className="hover:text-white transition-colors">How it Works</a>
-          <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
-          <a href="#login" className="hover:text-white transition-colors">Log In</a>
-          <Button size="sm" variant="primary">Get Started</Button>
+          {content.nav.links.map((link, i) => (
+            <a key={i} href={link.href} className="hover:text-white transition-colors">{link.label}</a>
+          ))}
+          <Button size="sm" variant="primary">{content.nav.cta}</Button>
         </div>
       </nav>
 
@@ -62,8 +63,8 @@ export default function Home() {
       <section className="py-32 px-4 relative overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">Global AI Visibility</h2>
-            <p className="text-white/60">See where you rank across every region.</p>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">{content.map.headline}</h2>
+            <p className="text-white/60">{content.map.subheadline}</p>
           </div>
           <WorldMap />
         </div>
@@ -106,10 +107,10 @@ export default function Home() {
                 ✕
               </button>
               <div className="text-center">
-                <div className="text-4xl mb-4">Wait! 🚀</div>
-                <h3 className="text-2xl font-bold text-white mb-2">Don't leave your brand invisible.</h3>
+                <div className="text-4xl mb-4">{content.exitIntent.emoji}</div>
+                <h3 className="text-2xl font-bold text-white mb-2">{content.exitIntent.headline}</h3>
                 <p className="text-white/60 mb-8">
-                  Get your free AI Visibility Score before you go. It takes less than 30 seconds.
+                  {content.exitIntent.subheadline}
                 </p>
                 <Button
                   className="w-full"
@@ -119,7 +120,7 @@ export default function Home() {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
                 >
-                  Check My Score Now
+                  {content.exitIntent.cta}
                 </Button>
               </div>
             </motion.div>
