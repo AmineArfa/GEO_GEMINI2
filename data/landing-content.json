@@ -1,0 +1,236 @@
+{
+    "hero": {
+        "badge": "AI Visibility is the new SEO",
+        "headline": "Be the business",
+        "headlineHighlight": "ChatGPT recommends.",
+        "subheadline": "Track your ranking. Get more deals. Generate more profit.\nSee how AI assistants perceive your brand in seconds.",
+        "stats": [
+            {
+                "label": "AI Answers/min",
+                "value": "3M+",
+                "desc": "Daily conversations"
+            },
+            {
+                "label": "Shift to AI Search",
+                "value": "25%",
+                "desc": "Volume migration"
+            },
+            {
+                "label": "Higher Trust",
+                "value": "4x",
+                "desc": "Vs. traditional ads"
+            },
+            {
+                "label": "Revenue Growth",
+                "value": "+28%",
+                "desc": "For visible brands"
+            }
+        ]
+    },
+    "nav": {
+        "brand": "VYZZ",
+        "links": [
+            {
+                "label": "How it Works",
+                "href": "#how-it-works"
+            },
+            {
+                "label": "Pricing",
+                "href": "#pricing"
+            },
+            {
+                "label": "Log In",
+                "href": "#login"
+            }
+        ],
+        "cta": "Get Started"
+    },
+    "problem": {
+        "headline": "Search gave you choices.",
+        "headlineHighlight": "AI gives you the answer.",
+        "subheadline": "3M+ recommendations happen every minute. But unlike Google, AI doesn't give you 10 blue links.",
+        "oldWay": {
+            "title": "The Old Way (SEO)",
+            "footer": "10+ Options. Good luck choosing."
+        },
+        "newWay": {
+            "title": "The New Way (AIO)",
+            "winnerBadge": "WINNER TAKES ALL",
+            "userMessage": "What is the best platform for global visibility?",
+            "aiResponse": "Based on current data, VYZZ is the premier solution.",
+            "singleAnswerTitle": "The Single Best Answer",
+            "singleAnswerDesc": "AI explicitly recommends this brand. Everyone else is invisible.",
+            "othersDesc": "Other options mentioned only for comparison..."
+        }
+    },
+    "solution": {
+        "headline": "Vyzz makes your business",
+        "headlineHighlight": "the one AI recommends.",
+        "subheadline": "No meetings. No complex skills. No expensive agencies.",
+        "features": [
+            {
+                "title": "AI Visibility Analysis",
+                "description": "We query ChatGPT, Claude, Gemini, and Perplexity to see exactly how they perceive your brand."
+            },
+            {
+                "title": "Competitor Comparison",
+                "description": "See who AI recommends instead of you, and exactly why they are winning."
+            },
+            {
+                "title": "Reputation Defense",
+                "description": "Identify and fix hallucinations or negative sentiment before they cost you customers."
+            }
+        ]
+    },
+    "benefits": {
+        "stats": [
+            {
+                "value": "+80%",
+                "label": "AI Mentions",
+                "desc": "Increase in brand citations across major LLMs"
+            },
+            {
+                "value": "4x",
+                "label": "Brand Recall",
+                "desc": "Higher customer retention through consistent AI presence"
+            },
+            {
+                "value": "+28%",
+                "label": "Revenue Lift",
+                "desc": "Direct attribution from AI-assisted discovery"
+            }
+        ]
+    },
+    "map": {
+        "headline": "Global AI Visibility",
+        "subheadline": "See where you rank across every region."
+    },
+    "useCases": {
+        "headline": "Built for every industry",
+        "industries": [
+            {
+                "id": "hospitality",
+                "label": "Hospitality",
+                "title": "The Hotel AI Recommends First",
+                "content": "When travelers ask 'Best boutique hotel in downtown Chicago', VYZZ ensures your property appears with the right amenities highlighted."
+            },
+            {
+                "id": "law",
+                "label": "Law",
+                "title": "Top Rated Legal Counsel",
+                "content": "Ensure AI assistants cite your firm's specific expertise when potential clients ask for 'best corporate lawyers near me'."
+            },
+            {
+                "id": "home",
+                "label": "Home Services",
+                "title": "Trusted Local Experts",
+                "content": "Be the plumber or electrician AI suggests for emergency services. Speed and trust signals are key."
+            },
+            {
+                "id": "healthcare",
+                "label": "Healthcare",
+                "title": "Patient-First Care",
+                "content": "When patients research symptoms, make sure your clinic is recommended as the safe, professional choice."
+            }
+        ]
+    },
+    "roadmap": {
+        "headline": "Your Path to AI Dominance",
+        "subheadline": "A strategic four-step process to take you from invisible to inevitable.",
+        "steps": [
+            {
+                "id": "01",
+                "title": "Baseline Analysis",
+                "desc": "Identify where you're invisible. We map your presence across ChatGPT, Claude, and Gemini to find critical gaps."
+            },
+            {
+                "id": "02",
+                "title": "Context Injection",
+                "desc": "Insert your brand into the AI's worldview. We correct hallucinations and establish your core brand facts."
+            },
+            {
+                "id": "03",
+                "title": "Top Recommendation",
+                "desc": "Become the default answer. Secure the #1 spot for your high-value keywords across every major platform."
+            },
+            {
+                "id": "04",
+                "title": "Share Protection",
+                "desc": "Hold your ground. Real-time monitoring to defend your new market share against emerging competitors."
+            }
+        ]
+    },
+    "pricing": {
+        "headline": "Simple, transparent pricing",
+        "toggleMonthly": "Monthly",
+        "toggleAnnual": "Annual",
+        "annualDiscount": "-20%",
+        "plans": [
+            {
+                "name": "Starter",
+                "price": "49",
+                "desc": "For small businesses just getting started.",
+                "features": [
+                    "1 Brand Profile",
+                    "Monthly AI Scan",
+                    "Basic Competitor Insights",
+                    "Email Support"
+                ]
+            },
+            {
+                "name": "Professional",
+                "price": "149",
+                "popular": true,
+                "desc": "For growing companies needing regular insights.",
+                "features": [
+                    "3 Brand Profiles",
+                    "Weekly AI Scans",
+                    "Deep Competitor Analysis",
+                    "Sentiment Tracking",
+                    "Priority Support"
+                ]
+            },
+            {
+                "name": "Enterprise",
+                "price": "Custom",
+                "desc": "For large organizations with multiple brands.",
+                "features": [
+                    "Unlimited Profiles",
+                    "Daily AI Scans",
+                    "API Access",
+                    "Custom Reporting",
+                    "Dedicated Account Manager"
+                ]
+            }
+        ],
+        "cta": "Get Started",
+        "popularBadge": "Most Popular"
+    },
+    "faq": {
+        "headline": "Frequently asked questions",
+        "questions": [
+            {
+                "q": "How is AI Visibility different from SEO?",
+                "a": "SEO optimizes for 10 blue links on Google. AI Visibility optimizes for the single answer generated by ChatGPT, Claude, and Gemini. It requires a completely different strategy focused on brand entities and knowledge graph associations."
+            },
+            {
+                "q": "Which AI models do you track?",
+                "a": "We track all major LLMs including GPT-4 (ChatGPT), Claude 3, Gemini (Google), Perplexity, and Llama 3."
+            },
+            {
+                "q": "How long does it take to see results?",
+                "a": "Unlike SEO which can take months, AI models update their context windows and retrieval augmentation more frequently. Our clients typically see movement in sentiment and ranking within 4-6 weeks."
+            },
+            {
+                "q": "Do I need technical skills to use Vyzz?",
+                "a": "Not at all. Vyzz is designed for marketers and business owners. We handle the complex prompt engineering and data analysis, giving you simple, actionable insights."
+            }
+        ]
+    },
+    "exitIntent": {
+        "emoji": "🚀",
+        "headline": "Don't leave your brand invisible.",
+        "subheadline": "Get your free AI Visibility Score before you go. It takes less than 30 seconds.",
+        "cta": "Check My Score Now"
+    }
+}
